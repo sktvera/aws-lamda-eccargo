@@ -1,0 +1,24 @@
+{
+  "name": "aws-node",
+  "version": "1.0.0",
+  "description": "process image to s3",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm i --quiet",
+    "test": "mocha lib/*.spec.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.1602.0",
+    "aws-sdk-mock": "^5.9.0",
+    "chai": "^5.1.0",
+    "mocha": "10.4.0",
+    "sinon": "^17.0.1",
+    "sinon-chai": "^3.7.0"
+  },
+  "private": true,
+  "author": {
+    "name": "aws-image-builder"
+  },
+  "license": "Apache-2.0"
+}
